@@ -1,6 +1,5 @@
 # Docker Status Bot [Telegram API]
 
----
 Docker Bot for Telegram that uses a command to list which containers are running and which are not
 ---
 
