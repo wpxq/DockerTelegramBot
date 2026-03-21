@@ -1,0 +1,12 @@
+services:
+  status-bot:
+    image: python:3.11-slim
+    container_name: docker-status-bot
+    restart: always
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    working_dir: /app
+    entrypoint: >
+      sh -c "pip install --no-cache-dir -r requirements.txt && 
+             python main.py"
