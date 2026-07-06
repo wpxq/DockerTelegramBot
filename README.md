@@ -1,6 +1,6 @@
 # Docker Status Bot [Telegram API]
 
-![DockerBot](https://github.com/wpxq/DockerTelegramBot/blob/main/dockerbot.png)
+![DockerBot](https://github.com/wreakdev/DockerTelegramBot/blob/main/dockerbot.png)
 
 ---
 
